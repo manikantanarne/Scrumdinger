@@ -56,7 +56,7 @@ extension DailyScrum {
     static let sampleData:[DailyScrum] = [
         DailyScrum(title: "Design",
                    attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
-                   lengthInMinutes: 10,
+                   lengthInMinutes: 2,
                    theme: .yellow),
         DailyScrum(title: "App Dev",
                    attendees: ["Katie", "Gray", "Euna", "Luis", "Darla"],
