@@ -19,10 +19,11 @@ struct ScrumsView: View {
                 }
                 .listRowBackground(scrum.theme.mainColor)
             }
+            .listRowSpacing(5)
             .navigationTitle("Daily Scrums")
             .toolbar {
                 Button() {
-                    // action
+                    // Action
                 } label: {
                     Image(systemName: "plus")
                 }
@@ -31,7 +32,6 @@ struct ScrumsView: View {
         }
     }
 }
-
 
 #Preview {
     ScrumsView(scrums: .constant(DailyScrum.sampleData))
